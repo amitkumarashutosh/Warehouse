@@ -1,32 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--     <title>Warehouse Management App</title> -->
-</head>
-<body>
+# React + Vite
 
-<h1>Warehouse Management App</h1>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<p>This is a React.js application for managing warehouses. It provides features to list warehouses, search by name, filter by city, cluster, and available space.</p>
+Currently, two official plugins are available:
 
-<h2>Features</h2>
-
-<ul>
-    <li>Display a list of warehouses with detailed information.</li>
-    <li>Search warehouses by name.</li>
-    <li>Filter warehouses by city, cluster, and available space.</li>
-    <li>View warehouse details and edit information.</li>
-</ul>
-
-<h2>Technologies Used</h2>
-
-<ul>
-    <li>React.js</li>
-    <li>React Router</li>
-    <li>Redux Toolkit</li>
-</ul>
-
-</body>
-</html>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
