@@ -1,0 +1,40 @@
+.details{
+    margin: 1rem 3rem;
+}
+
+.details--items{
+    margin: 1rem 0;
+}
+
+.details--items label{
+    font-size: 1.2rem;
+}
+.details--items input{
+    display: block;
+    width: 50%;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    
+}
+.details--checked label{
+    display: block;
+    font-size: 1.2rem;
+}
+
+.details--checked input{
+    width: 17px;
+    height: 17px;
+    margin-left: 6px;
+}
+
+.details--button{
+    margin-top: 1rem;
+    background:#A626D3;
+    color: white;
+    padding: 0.3rem 0.7rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
